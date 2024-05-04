@@ -19,10 +19,25 @@ a {
 ul {
   list-style: none;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 #page-logo a {
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
   color: rgb(238, 164, 80);
+}
+nav li {
+  margin: 10px;
+}
+nav a {
+  color: rgb(185, 131, 31);
+  font-size: 1.25rem;
+}
+nav a:hover {
+  background-color: rgb(228, 163, 44);
+  color: black;
+  box-shadow: 0 0 15px rgb(228, 163, 44), 0 0 25px rgb(228, 163, 44),
+    0 0 50px rgb(228, 163, 44), 0 0 100px rgb(228, 163, 44);
 }
