@@ -61,3 +61,16 @@ main h1 {
   width: 80%;
   margin: 2rem auto;
 }
+#content ul {
+  display: grid;
+  list-style: none;
+  /* grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 0;
+  padding: 0; */
+}
+article img {
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+}
